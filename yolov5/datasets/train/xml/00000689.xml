@@ -1,0 +1,39 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<annotation>
+	<folder />
+	<filename />
+	<path />
+	<source>
+		<database>unknown</database>
+	</source>
+	<size>
+		<width>1716</width>
+		<height>942</height>
+		<depth>3</depth>
+	</size>
+	<segmented>0</segmented>
+	<object>
+		<name>stas</name>
+		<pose>unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>740</xmin>
+			<ymin>429</ymin>
+			<xmax>846</xmax>
+			<ymax>506</ymax>
+		</bndbox>
+	</object>
+	<object>
+		<name>stas</name>
+		<pose>unspecified</pose>
+		<truncated>0</truncated>
+		<difficult>0</difficult>
+		<bndbox>
+			<xmin>1119</xmin>
+			<ymin>620</ymin>
+			<xmax>1231</xmax>
+			<ymax>701</ymax>
+		</bndbox>
+	</object>
+</annotation>
