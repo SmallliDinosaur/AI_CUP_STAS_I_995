@@ -19,8 +19,8 @@
 * TTA 測試時間增強包括反射和比例增強。
 ```python val.py --data coco.yaml --img 1536 --iou 0.7 --augment```
 
-![Imgur](https://i.imgur.com/kI9Vu4F.png "yolov5作者的演算法效能測試圖")
-![Imgur](https://i.imgur.com/ugNm0x5.png "預訓練的檢查點")
+![Imgur](https://i.imgur.com/kI9Vu4F.png "yolov5作者的演算法效能測試圖")[1]
+![Imgur](https://i.imgur.com/ugNm0x5.png "預訓練的檢查點")[1]
 
 * 網址：https://github.com/ultralytics/Yolov5/releases
 * 使用模型包括：YOLOv5n、YOLOv5s、YOLOv5m、YOLOv5l、YOLOv5x、YOLOv5n6、YOLOv5s6、YOLOv5m6、YOLOv5l6、YOLOv5x6+ TTA。
@@ -207,7 +207,7 @@ for i in range(n_file):
 
 <h1>肆、	訓練方式</h1>
 
-　　用隨機分配固定比例方式分成8比2，訓練集842筆和測試集131筆。以表一權重檔做為基底，再加上新的資料繼續做訓練，期以能夠提高準確率。我們用上述的訓練方式重複訓練，有微調模型架構裡的超參數，訓練超參數包括：yaml文件的選擇，和訓練圖片的大小、預訓練、batch、epoch等。可以直接在train.py的parser中修改，也可以在命令行執行時修改，如下：
+　　用隨機分配固定比例方式分成8比2，訓練集842筆和測試集131筆。以表一權重檔做為基底，再加上新的資料繼續做訓練，期以能夠提高準確率。我們用上述的訓練方式重複訓練，有微調模型架構裡的超參數，訓練超參數包括：yaml文件的選擇，和訓練圖片的大小、預訓練、batch、epoch等。可以直接在train.py的parser中修改，也可以在命令行執行時修改，如下：[2]
 
 ```$ python train.py --data coco.yaml --cfg yolov5s.yaml --weights '' --batch-size 64```
 
@@ -259,7 +259,7 @@ copy_paste: 0.0
 <h1>陸、	雲端使用</h1>
  
 　　比賽期間的Public成績，剛好很幸運在排名第11名，擁有台智雲將提供前30名的隊伍於5/26~6/1共7天等值新台幣3萬額度的TWCC雲端運算資源使用權限，換算可讓每個隊伍可以使用一張NVIDIA® Tesla V100 GPU約490個小時之雲端資源。
-　　運用TWCC雲端運算資源的容器運算服務 (Container Compute Service, CCS)，他的服務項目包含開發型容器、任務型容器。配備 8 個 NVIDIA® Tesla V100 GPU，加速人工智慧訓練、推論與高效能運算，支援 5120 個 CUDA 核心與 640 個 Tensor 核心，並支援 NVLink 進行 GPU 之間的資料傳輸，加速人工智慧訓練、推論與高效能運算。
+　　運用TWCC雲端運算資源的容器運算服務 (Container Compute Service, CCS)，他的服務項目包含開發型容器、任務型容器。配備 8 個 NVIDIA® Tesla V100 GPU，加速人工智慧訓練、推論與高效能運算，支援 5120 個 CUDA 核心與 640 個 Tensor 核心，並支援 NVLink 進行 GPU 之間的資料傳輸，加速人工智慧訓練、推論與高效能運算。[3]
 
 ![Imgur](https://i.imgur.com/nYfJdfu.png "競賽說明")
 
@@ -279,9 +279,12 @@ copy_paste: 0.0
 
 
 <h1>捌、	使用的外部資源與參考文獻</h1>
-ultralytics(2022, February 2). Yolov5x6.pt, Pretrained Checkpoints,Retrieved from https://github.com/ultralytics/Yolov5/releases
+[1]	ultralytics(2022, February 2). Yolov5x6.pt, Pretrained Checkpoints,Retrieved from https://github.com/ultralytics/Yolov5/releases
 
-Laughing-q (2020, July 20). YOLOV5訓練代碼train.py註釋與解析, Retrieved from https://blog.csdn.net/Q1u1NG/article/details/107463417
+[2]	Laughing-q (2020, July 20). YOLOV5訓練代碼train.py註釋與解析, Retrieved from https://blog.csdn.net/Q1u1NG/article/details/107463417
+
+[3]	TWS (2022). CCS 容器運算服務, Retrieved from https://tws.twcc.ai/service/container-compute-service/
+
 
 
  
