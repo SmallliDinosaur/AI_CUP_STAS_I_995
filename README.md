@@ -1,3 +1,6 @@
+![imgur](https://i.imgur.com/4O2X2RO.jpeg)
+![imgur](https://i.imgur.com/EaKUhne.png)
+
 # AI_CUP_STAS_I_995
 肺腺癌病理切片影像之腫瘤氣道擴散偵測競賽 I：運用物體偵測作法於找尋STAS
 報告說明文件
