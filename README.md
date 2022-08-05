@@ -1,6 +1,7 @@
 ![imgur](https://i.imgur.com/4O2X2RO.jpeg)
 ![imgur](https://i.imgur.com/EaKUhne.png)
 
+全國22名/學生組18名：
 https://www.facebook.com/AICUPrealtask/photos/pcb.3359325671059825/3361091910883201
 
 # AI_CUP_STAS_I_995
