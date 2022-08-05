@@ -1,8 +1,9 @@
 ![imgur](https://i.imgur.com/4O2X2RO.jpeg)
 ![imgur](https://i.imgur.com/EaKUhne.png)
 
-全國22名/學生組18名：
-https://www.facebook.com/AICUPrealtask/photos/pcb.3359325671059825/3361091910883201
+全國22名/學生組18名：https://tbrain.trendmicro.com.tw/Competitions/Details/21
+<br>
+競爭對手&榜單：https://www.facebook.com/AICUPrealtask/photos/pcb.3359325671059825/3361091910883201
 
 # AI_CUP_STAS_I_995
 肺腺癌病理切片影像之腫瘤氣道擴散偵測競賽 I：運用物體偵測作法於找尋STAS
