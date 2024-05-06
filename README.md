@@ -1,4 +1,4 @@
-![imgur](https://i.imgur.com/4O2X2RO.jpeg)
+
 ![imgur](https://i.imgur.com/EaKUhne.png)
 
 全國22名/學生組18名：https://tbrain.trendmicro.com.tw/Competitions/Details/21
